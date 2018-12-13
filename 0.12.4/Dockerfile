@@ -1,4 +1,4 @@
-FROM helphi/wkhtmltopdf:base
+FROM helphi/wkhtmltopdf:base-1
 
 RUN apt update &&\
     DEBIAN_FRONTEND=noninteractive apt install -y xz-utils --no-install-recommends &&\
